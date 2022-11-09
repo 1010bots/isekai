@@ -1,0 +1,48 @@
+{
+	"name": "leafs/alchemy",
+	"description": "A simple command line tool for installing and interacting with your leaf apps",
+	"homepage": "https://leafphp.dev/docs/tooling/testing",
+	"keywords": [
+		"leaf",
+		"php",
+		"testing",
+		"test"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michael Darko",
+			"email": "mickdd22@gmail.com",
+			"homepage": "https://mychi.netlify.app",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"psy/psysh": "^0.9.9",
+		"symfony/console": "^5.0",
+		"symfony/process": "^5.0",
+		"phpunit/phpunit": "^9.0",
+      	"ext-json": "*",
+		"leafs/fs": "*",
+		"pestphp/pest": "*"
+    },
+	"bin": [
+		"bin/alchemy"
+	],
+	"autoload": {
+		"psr-4": {
+			"Leaf\\Alchemy\\": "src/"
+		},
+		"files": [
+			"src/functions.php"
+		]
+	},
+	"config": {
+		"sort-packages": true,
+		"allow-plugins": {
+			"pestphp/pest-plugin": true
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
