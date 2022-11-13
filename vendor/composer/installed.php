@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'b640918eb9b3af18774e8d02cdf35e6e5cc0eaf3',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'b640918eb9b3af18774e8d02cdf35e6e5cc0eaf3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -54,6 +54,15 @@
             'install_path' => __DIR__ . '/../filp/whoops',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'graham-campbell/result-type' => array(
+            'pretty_version' => 'v1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => 'a878d45c1914464426dc94da61c9e1d36ae262a8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../graham-campbell/result-type',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'jakub-onderka/php-console-color' => array(
             'pretty_version' => 'v0.2',
@@ -100,6 +109,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'leafs/date' => array(
+            'pretty_version' => 'v1.0',
+            'version' => '1.0.0.0',
+            'reference' => '0f92b91a82263eb10cc7716a4acfb680161761ee',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../leafs/date',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'leafs/db' => array(
             'pretty_version' => 'v1.0',
             'version' => '1.0.0.0',
@@ -118,6 +136,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'leafs/form' => array(
+            'pretty_version' => 'v1.2.1',
+            'version' => '1.2.1.0',
+            'reference' => '9fb38487817dcb6d0987e4c31930b286abfd0563',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../leafs/form',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'leafs/fs' => array(
             'pretty_version' => 'v1.0',
             'version' => '1.0.0.0',
@@ -125,7 +152,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../leafs/fs',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'leafs/http' => array(
             'pretty_version' => 'v2.2.0',
@@ -142,6 +169,15 @@
             'reference' => '573dca9a4caed6412544ceaf913d72afb58fcaee',
             'type' => 'library',
             'install_path' => __DIR__ . '/../leafs/leaf',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'leafs/logger' => array(
+            'pretty_version' => 'v1.1.1',
+            'version' => '1.1.1.0',
+            'reference' => 'fcc6bbc2231d95b2730d1a748c1292816c1c728c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../leafs/logger',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -216,6 +252,15 @@
             'install_path' => __DIR__ . '/../phar-io/version',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'phpoption/phpoption' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'reference' => 'dc5ff11e274a90cc1c743f66c9ad700ce50db9ab',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoption/phpoption',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'phpunit/php-code-coverage' => array(
             'pretty_version' => '9.2.18',
@@ -464,7 +509,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/finder' => array(
             'pretty_version' => 'v5.4.11',
@@ -473,7 +518,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/finder',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/polyfill-ctype' => array(
             'pretty_version' => 'v1.26.0',
@@ -482,7 +527,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-ctype',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/polyfill-intl-grapheme' => array(
             'pretty_version' => 'v1.26.0',
@@ -509,7 +554,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/polyfill-php73' => array(
             'pretty_version' => 'v1.26.0',
@@ -527,7 +572,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-php80',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'symfony/process' => array(
             'pretty_version' => 'v5.4.11',
@@ -573,6 +618,15 @@
             'install_path' => __DIR__ . '/../theseer/tokenizer',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'vlucas/phpdotenv' => array(
+            'pretty_version' => 'v5.5.0',
+            'version' => '5.5.0.0',
+            'reference' => '1a7ea2afc49c3ee6d87061f5a233e3a035d0eae7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../vlucas/phpdotenv',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
     ),
 );
